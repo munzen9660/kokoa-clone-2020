@@ -3,6 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: var(--horizontal-space);
+  margin-bottom: 10px;
 }
 .screen-header__title {
   font-size: 32px;
@@ -13,7 +14,6 @@
   position: relative;
 }
 span .screen-header__noti-dot {
-  display: inline-block;
   width: 6px;
   height: 6px;
   background-color: tomato;
