@@ -10,4 +10,14 @@
 }
 .screen-header__icons span {
   margin-left: 20px;
+  position: relative;
+}
+span .screen-header__noti-dot {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  background-color: tomato;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 20px;
 }
