@@ -67,7 +67,7 @@
 .open-post__photo img {
   width: 110px;
   height: 110px;
-  border-radius: 10%;
+  border-radius: 15%;
 }
 .open-post__heart-count {
   background-color: rgba(0, 0, 0, 0.6);
