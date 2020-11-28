@@ -86,7 +86,7 @@
   align-items: center;
 }
 .reply .reply__column:first-child {
-  width: 10%;
+  width: 6%;
 }
 .reply .reply__column:last-child {
   width: 90%;
