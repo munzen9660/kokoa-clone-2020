@@ -15,11 +15,25 @@
   color: #2e363e;
   position: relative;
 }
+
+@keyframes notificationAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(3.6px) rotateY(360deg);
+  }
+  100% {
+    transform: none;
+  }
+}
 .nav__notification {
   position: absolute;
   left: 18px;
   bottom: 18px;
+  animation: notificationAnimation 2s ease-in-out infinite;
 }
+
 .nav__notification-setting {
   background-color: tomato;
   width: 6px;
