@@ -42,3 +42,38 @@
 .open-chat__header span {
   color: var(--text-grey);
 }
+.open-post {
+  display: flex;
+}
+.open-post__title {
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+.open-post__hashtags {
+  text-transform: uppercase;
+  color: var(--text-grey);
+}
+.open-post__memembers {
+  display: flex;
+  align-items: center;
+  margin-top: 7px;
+}
+.open-post__memembers img {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.open-post__memember-count {
+  color: var(--text-grey);
+  font-size: 14px;
+}
+.open-post__memembers .divider {
+  width: 1.2px;
+  height: 14px;
+  background-color: var(--text-grey);
+  margin: 0px 5px;
+}
+.open-post__memember-status {
+  color: #ffb0e0;
+}
