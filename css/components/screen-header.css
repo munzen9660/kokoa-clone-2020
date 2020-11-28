@@ -51,7 +51,7 @@ span .screen-header__noti-dot {
  * animation vibrate-2
  * ----------------------------------------
  */
-@-webkit-keyframes vibrate-2 {
+@keyframes vibrate-2 {
   0% {
     -webkit-transform: translate(0);
     transform: translate(0);
