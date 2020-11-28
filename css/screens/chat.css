@@ -103,17 +103,18 @@
   width: 100%;
   border: var(--main-border);
   border-radius: 20px;
+  font-size: 16px;
 }
 .reply__column:last-child > i,
 .reply__column:last-child button {
   position: absolute;
-  right: -20px;
-  top: 3px;
+  right: -18px;
+  top: 4px;
 }
 
 .reply__column:last-child > i {
-  right: 20px;
-  top: 3px;
+  right: 24px;
+  top: 4px;
 }
 .reply__column button {
   background-color: var(--yellow);
