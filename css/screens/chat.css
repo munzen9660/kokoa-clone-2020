@@ -55,7 +55,7 @@
 .message__bubble {
   background-color: white;
   padding: 10px 12px;
-  margin-right: 5px;
+  margin: 0px 5px;
   border-radius: 16px;
   border-top-left-radius: 2.4px;
   font-size: 18px;
