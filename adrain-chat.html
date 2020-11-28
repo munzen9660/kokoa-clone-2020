@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat with Adrian - Kokoa Clone</title>
+  </head>
+  <body>
+    <!-- BEM-Block Element Modifier 방식으로 Class 정의 -->
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="./chats.html"><i class="fas fa-angle-left fa-2x"></i></a>
+      </div>
+      <div class="alt-header__title">Adrain</div>
+      <div class="alt-header__column">
+        <i class="fas fa-search fa-lg fa-lg"></i>
+      </div>
+    </header>
+
+    <main class="main-screen"></main>
+
+    <!-- script should be the last Element of the body-->
+    <script
+      src="https://kit.fontawesome.com/791b09bb50.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
