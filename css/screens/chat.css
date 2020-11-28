@@ -74,10 +74,6 @@
   border-top-right-radius: 2.4px;
   border-top-left-radius: 16px;
 }
-
-.message-row--own .message__bubble {
-  order: 1;
-}
-.message-row--own .message__time {
-  order: 0;
+.message-row--own .message__info {
+  flex-direction: row-reverse;
 }
