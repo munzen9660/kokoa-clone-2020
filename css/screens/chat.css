@@ -65,3 +65,19 @@
   opacity: 0.8;
   font-size: 13.8px;
 }
+
+.message-row--own {
+  justify-content: flex-end;
+}
+.message-row--own .message__bubble {
+  background-color: var(--yellow);
+  border-top-right-radius: 2.4px;
+  border-top-left-radius: 16px;
+}
+
+.message-row--own .message__bubble {
+  order: 1;
+}
+.message-row--own .message__time {
+  order: 0;
+}
